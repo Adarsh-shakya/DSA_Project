@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//calculate total salea of the item
 public class Company {
     public static void main(String ags[]){
         int sum;
