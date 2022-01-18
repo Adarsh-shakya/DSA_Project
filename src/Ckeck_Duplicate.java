@@ -1,3 +1,4 @@
+//chech array have duplicate element or not.
 public class Ckeck_Duplicate {
     public static  void main(String arg[]){
         int arr[]={2,3,4,5,3,7,4};
