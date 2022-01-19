@@ -1,3 +1,4 @@
+//Find grater value..
 public class Grater_Array {
    int  myArray1[];
    int  myarray2[];
