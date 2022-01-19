@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//hackerrank solution
 public class Solution {
     public static void main(String[] args) {
         Scanner sca=new Scanner(System.in);

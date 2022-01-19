@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// calculat average marks
 public class Student {
     public static void main(String[] args) {
         Scanner sca=new Scanner(System.in);
