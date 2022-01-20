@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+// 2D array
 public class _2D_array {
     int arr[][];
     ArrayList odd;
