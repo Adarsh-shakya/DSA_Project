@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//check the product is odd or not
 public class Array1 {
     int arr[];
 
