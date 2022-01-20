@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Time manegment.
 public class TimeInterval {
     int start;
     int end;
