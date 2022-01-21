@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// increasing number
 public class IncreasingNum {
     public static int increas(int n){
         if(n==0){
