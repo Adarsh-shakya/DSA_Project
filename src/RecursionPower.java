@@ -20,7 +20,7 @@ class PowerMain{
             System.out.println("Enter the number and power: ");
             n=sca.nextInt();
             p=sca.nextInt();
-            System.out.println(RecursionPower.power(2,3));
+            System.out.println("Power= "+RecursionPower.power(n,p));
 
         }
     }
