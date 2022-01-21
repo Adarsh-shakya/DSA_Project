@@ -6,7 +6,7 @@ public class Solution {
         System.out.println("Enter the length of array: ");
         int n=sca.nextInt();
         String arr[]=new String[n];
-        System.out.println("Enter the element of the array: y;" +" ");
+        System.out.println("Enter the element of the array: ");
         for (int i = 0; i <arr.length ; i++) {
             arr[i]=sca.next();
         }
