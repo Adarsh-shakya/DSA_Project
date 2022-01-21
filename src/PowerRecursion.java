@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//by tail method
 public class PowerRecursion {
     public static void power(int n,int p, int ans){
         if(p==0){
