@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//length of number
 public class digitNum {
     public static void  num(int n,int ans){
         if(n==0){
