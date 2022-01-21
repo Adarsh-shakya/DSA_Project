@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Power by recursion
 public class RecursionPower {
     public static int power(int n,int p){
       if(p==0){
