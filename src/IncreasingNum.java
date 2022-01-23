@@ -1,13 +1,13 @@
 import java.util.Scanner;
 // increasing number
 public class IncreasingNum {
-    public static int increas(int n){
+    public static void increas(int n){
         if(n==0){
-            return 0;
+            return ;
         }
-        int recuAnswer=increas(n-1);
-        System.out.print(recuAnswer+1+" ");
-        return n;
+        increas(n-1);
+        System.out.print(n+" ");
+
     }
 }
 class MainNum{
