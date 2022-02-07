@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//canvert decimal to Binary
 public class Binary {
     int result=0;
     public int bin(int num){
