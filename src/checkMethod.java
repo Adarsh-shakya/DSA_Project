@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//check number is present or not
 public class checkMethod {
     static int arr[]={2,3,5,8,9};
     public static void check(int n,int i)
