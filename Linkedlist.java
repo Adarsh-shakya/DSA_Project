@@ -79,6 +79,7 @@ public class Linkedlist
             System.out.println("Press 3 for traverse ");
             System.out.println("Press 4 for Exit  ");
             System.out.println("Press 5 for insertAtStart");
+            System.out.println("Press 6 for insertAtPosition");
 
             System.out.println("Enter your choice : ");
             Scanner sca=new Scanner(System.in);
@@ -111,12 +112,34 @@ public class Linkedlist
                     obj.insertAtStart();
                     break;
                 }
+                case 6:
+                {
+                    obj.insertAtPosition();
+                    break;
+                }
                 default:
                 {
                     System.out.println("...Wrong choice..");
                 }
             }
         }
+    }
+
+    public void insertAtPosition() {
+        Scanner sca=new Scanner(System.in);
+        System.out.println("Enter the data: " );
+        Node nn=new Node();
+        nn.data=sca.nextInt();
+        System.out.println("Enter the position: ");
+        int pos=sca.nextInt();
+        Node temp=start;
+        for(int i=1;i<pos-1;i++)
+        {
+            temp=temp.next;
+        }
+        nn.next=temp.next;
+        temp.next=nn;
+        System.out.println("Data inserted");
     }
 
     public void insertAtStart() {
