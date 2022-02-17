@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+// it follow FIFO Tech.
 
 public class SinglyQueue {
     int arr[];
