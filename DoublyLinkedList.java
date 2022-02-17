@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// On this list we can traverse from both side front and back;
 class Node2
 {
    int rollno;
