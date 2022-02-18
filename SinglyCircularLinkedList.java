@@ -37,7 +37,31 @@ public class SinglyCircularLinkedList {
     }
     public void Delete()
     {
-    System.out.println("Delete");
+        if(Start==null)
+        {
+          System.out.println("list is Empty");
+        }
+        else
+        {
+            System.out.println("delete--->"+Start.data);
+          if(Start==Start.next)
+          {
+            Start=null;
+          }
+          else
+          {
+          Node1 current=Start;
+          while(current.next!=Start)
+          {
+             current=current.next;
+          }
+       
+          current.next=Start.next;
+          Start=Start.next;
+          }
+          
+  
+        }
     }
     public void Traverse()
     {
