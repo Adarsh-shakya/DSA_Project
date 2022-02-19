@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//remove duplicate element
 class Node
 {
 int data;
