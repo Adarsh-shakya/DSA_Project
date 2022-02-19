@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// search midden
 public class LinkedList3 {
     Node head;
     int len;
