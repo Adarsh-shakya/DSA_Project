@@ -35,6 +35,21 @@ public class doubleLinkedList {
       System.out.println("Data inserted");
      }
     }
+    public void traverse()
+    {
+     if(head==null)
+     {
+       System.out.println("list is empty");
+     }
+     else
+     {
+       Nod current;
+        for(current=head;current!=null;current=current.next)
+        {
+         System.out.print(current.data+" ");
+        }
+     }
+    }
     public static void main(String []args)
     {
       doubleLinkedList obj=new doubleLinkedList();
@@ -42,8 +57,8 @@ public class doubleLinkedList {
       while(true)
       {
        System.out.println("\nPress 1 for insert");
-       System.out.println("Press 2 for delete");
-       System.out.println("Press 3 for Traverse");
+       System.out.println("Press 2 for Traverse");
+       System.out.println("Press 3 for ReverseTraverse");
        System.out.println("Press 4 for Exit");
        
        System.out.println("Enter your choice ");
@@ -57,12 +72,12 @@ public class doubleLinkedList {
            }
            case 2:
            {
-              
+              obj.traverse();
               break;
            }
            case 3:
            {
-              
+            obj.ReverseTraverse();  
               break;
            }
            case 4:
@@ -76,5 +91,26 @@ public class doubleLinkedList {
            }
        }
       }
+    }
+
+    public  void ReverseTraverse() {
+       if(head==null)
+     {
+       System.out.println("list is empty");
+     }
+       else
+       {
+         Nod temp=head;
+         while(temp.next!=null)
+         {
+           temp=temp.next;
+         }
+         while(temp.previos!=null)
+         {
+          System.out.print(temp.data+" ");
+          temp=temp.previos;
+         }
+         System.out.println(temp.data);
+       }
     }
 }
